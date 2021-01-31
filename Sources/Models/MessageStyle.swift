@@ -51,6 +51,7 @@ public enum MessageStyle {
 
         case curved
         case pointedEdge
+        case whatsapp
 
         internal var imageNameSuffix: String {
             switch self {
@@ -58,7 +59,9 @@ public enum MessageStyle {
                 return "_tail_v2"
             case .pointedEdge:
                 return "_tail_v1"
-            }
+            case .whatsapp:
+                return "_tail_v3"
+            }            
         }
     }
 
