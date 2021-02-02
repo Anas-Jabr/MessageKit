@@ -65,7 +65,6 @@ public enum MessageKind {
     ///   - MessagesDataSource: customCell(for message: MessageType, at indexPath: IndexPath, in messagesCollectionView: MessagesCollectionView) -> UICollectionViewCell
     ///   - MessagesLayoutDelegate: customCellSizeCalculator(for message: MessageType, at indexPath: IndexPath, in messagesCollectionView: MessagesCollectionView) -> CellSizeCalculator
     case custom(Any?)
-    case whatsappText(String)
     // MARK: - Not supported yet
 
 //    case system(String)
